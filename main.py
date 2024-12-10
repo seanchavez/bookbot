@@ -1,9 +1,6 @@
 def main():
     book_text = get_file_contents("books/frankenstein.txt")
     print_report(book_text)
-    # word_count = count_words(book_text)
-    # chars_count = get_chars_count(book_text)
-    # print(chars_count)
 
 def get_file_contents(path):
     with open(path) as f:
